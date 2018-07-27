@@ -329,16 +329,41 @@
                     ]
                 }
             ]
-        }
+        },
         {
             "name": "academia",
             "children": [
+                {
+                    "name": "rollins-2018",
+                    "value": 5,
+                    "title": "Rollins College",
+                    "degree": "BA - Computer Science 2018",
+                    "gpa": "3.59",
+                    "img":""
+                },
+                {
+                    "name": "rollins-acm",
+                    "value": 3,
+                    "title": "Rollins ACM Vice President",
+                    "img": ""
+                },
+                {
+                    "name": "senior-project",
+                    "value": 4,
+                    "title": "Senior Capstone Project",
+                    "projects":[
+                        {
+                            "title": "The Parking Project",
+                            "name":"the-parking-project"
+                        }
+                    ]
+                }
 
             ]
         },
         {
             "name": "personal",
-            "cildren": [
+            "children": [
 
             ]
         }
