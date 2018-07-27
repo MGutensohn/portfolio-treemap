@@ -1,0 +1,346 @@
+{
+    "name": "myPortfolio",
+    "children": [
+        {
+            "name": "work",
+            "children": [
+                {
+                    "name": "JPL-2017",
+                    "value": 2,
+                    "location":"Jet Propulsion Lab - Summer 2017",
+                    "title":"Web Developer Intern",
+                    "img":"",
+                    "projects":[
+                        {
+                            "title":"Deep Space Network Operations Simulator",
+                            "name":"DSN_OS"
+                        }
+                    ]
+                },
+                {
+                    "name": "KSC-2017",
+                    "value": 2,
+                    "location":"Kennedy Space Center - Fall 2017",
+                    "title":"Web Developer Intern",
+                    "img":"",
+                    "projects":[
+                        {
+                            "title":"SpaceDex",
+                            "name":"SPACEDEX"
+                        }
+                    ]
+                },
+                {
+                    "name": "KSC-2018",
+                    "value": 2,
+                    "location":"Kennedy Space Center: Augmented/Virtual Reality Lab - Spring 2018",
+                    "title":"Computer Vision Intern",
+                    "img":"",
+                    "projects":[
+                        {
+                            "title":"AVR Vision",
+                            "name":"AVR_VISION"
+                        },
+                        {
+                            "title":"AVR Gateway",
+                            "name":"AVR_GATEWAY"
+                        }
+                    ]
+                },
+                {
+                    "name": "JPL-2018",
+                    "value": 2,
+                    "location":"Jet Propulsion Lab - Summer 2018",
+                    "title":"Data Visualization Developer Intern",
+                    "img":"",
+                    "projects":[
+                        {
+                            "title":"Orbit Determination Dashboard",
+                            "name":"OD_D"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "projects",
+            "children": [
+                {
+                    "name":"OD_D",
+                    "title":"Orbit Determination Dashboard",
+                    "children":[
+                        {
+                            "name":"requirements",
+                            "value": 1,
+                            "title":"Requirements",
+                            "list":[
+                                "Convert Monte BOA files into an D3 injestible JSON format.",
+                                "Diff and combin N number of case input files into a superset, record and indicate changes and their origin.",
+                                "Visualize this super set as a zoomable treemap (much like this one)",
+                                "Visualize n number of case output in a single plot."
+                            ]
+                        },
+                        {
+                            "name":"tools_used",
+                            "value": 3,
+                            "title":"Tools Used",
+                            "tools":[
+                                {
+                                    "img":"",
+                                    "name":"D3.JS"
+                                },
+                                {
+                                    "img":"",
+                                    "name":"Node.JS"
+                                },
+                                {
+                                    "img":"",
+                                    "name":"Express.JS"
+                                }
+                            ]
+                        },
+                        {
+                            "name":"process",
+                            "value": 5,
+                            "title":"Development Process",
+                            "process":[
+                                {
+                                    "img":"",
+                                    "name":"Familiarization"
+                                },
+                                {
+                                    "img":"",
+                                    "name":"Ideation"
+                                },
+                                {
+                                    "img":"",
+                                    "name":"Development"
+                                },
+                                {
+                                    "img":"",
+                                    "name":"Feedback"
+                                },
+                                {
+                                    "img":"",
+                                    "name":"Iteration"
+                                }
+                            ]
+                        },
+                        {
+                            "name":"currentState",
+                            "value": 3,
+                            "title":"Current State",
+                            "gallery":[
+                                {
+                                    "img":"",
+                                    "name":"Treemap"
+                                },
+                                {
+                                    "img":"",
+                                    "name":"Residual Plots"
+                                },
+                                {
+                                    "img":"",
+                                    "name":"Error Ellipse Plots"
+                                }
+                            ]
+
+                        }
+                    ]
+                },
+                {
+                    "name":"AVR_VISION",
+                    "title":"AVR Vision Library",
+                    "children":[
+                        {
+                            "name":"requirements",
+                            "value": 1,
+                            "title":"Requirements",
+                            "list":[
+                                "Capable of autheticating a user through facial recogntion.",
+                                "Capable of recognizing and adding new users.",
+                                "Compatible with Unity C# and C#.NET.",
+                                "Compatible with Microsoft Kinect or any other commercially available RGB-D Camera.",
+                                "All other resources mist be free and Open Source."
+                            ]
+                        },
+                        {
+                            "name":"tools_used",
+                            "value": 4,
+                            "title":"Tools Used",
+                            "tools":[
+                                {
+                                    "img":"",
+                                    "name":"Microsoft Kinect v2"
+                                },
+                                {
+                                    "img":"",
+                                    "name":"OpenCV"
+                                },
+                                {
+                                    "img":"",
+                                    "name":"C/C++"
+                                },
+                                {
+                                    "img":"",
+                                    "name":"C#"
+                                }
+                            ]
+                        },
+                        {
+                            "name":"process",
+                            "value": 5,
+                            "title":"Development Process",
+                            "process":[
+                                {
+                                    "img":"",
+                                    "name":"Research"
+                                },
+                                {
+                                    "img":"",
+                                    "name":"Ideation"
+                                },
+                                {
+                                    "img":"",
+                                    "name":"Development"
+                                },
+                                {
+                                    "img":"",
+                                    "name":"Testing"
+                                },
+                                {
+                                    "img":"",
+                                    "name":"Iteration"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name":"AVR_GATEWAY",
+                    "title":"AVR Gateway",
+                    "children":[
+                        {
+                            "name":"requirements",
+                            "value": 1,
+                            "title":"Requirements",
+                            "list":[
+                                "Utilize basic voice recogntion.",
+                                "Utilize AVR Vision Library.",
+                                "Able to launch VR apps.",
+                                "Able easily add new users."
+
+                            ]
+                        },
+                        {
+                            "name":"tools_used",
+                            "value": 3,
+                            "title":"Tools Used",
+                            "tools":[
+                                {
+                                    "img":"",
+                                    "name":"Microsoft Kinect v2"
+                                },
+                                {
+                                    "img":"",
+                                    "name":".NET WPF"
+                                },
+                                {
+                                    "img":"",
+                                    "name":"AVR Vision"
+                                }
+                            ]
+                        },
+                        {
+                            "name":"process",
+                            "value": 3,
+                            "title":"Development Process",
+                            "process":[
+                                {
+                                    "img":"",
+                                    "name":"Development"
+                                },
+                                {
+                                    "img":"",
+                                    "name":"Testing"
+                                },
+                                {
+                                    "img":"",
+                                    "name":"Iteration"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name":"DSN_OS",
+                    "title":"Deep Space Network Operations Simulator",
+                    "children":[
+                        {
+                            "name":"requirements",
+                            "value": 1,
+                            "title":"Requirements",
+                            "list":[
+                                "Utilize basic voice recogntion.",
+                                "Utilize AVR Vision Library.",
+                                "Able to launch VR apps.",
+                                "Able easily add new users."
+
+                            ]
+                        },
+                        {
+                            "name":"tools_used",
+                            "value": 3,
+                            "title":"Tools Used",
+                            "tools":[
+                                {
+                                    "img":"",
+                                    "name":"Microsoft Kinect v2"
+                                },
+                                {
+                                    "img":"",
+                                    "name":".NET WPF"
+                                },
+                                {
+                                    "img":"",
+                                    "name":"AVR Vision"
+                                }
+                            ]
+                        },
+                        {
+                            "name":"process",
+                            "value": 3,
+                            "title":"Development Process",
+                            "process":[
+                                {
+                                    "img":"",
+                                    "name":"Development"
+                                },
+                                {
+                                    "img":"",
+                                    "name":"Testing"
+                                },
+                                {
+                                    "img":"",
+                                    "name":"Iteration"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+        {
+            "name": "academia",
+            "children": [
+
+            ]
+        },
+        {
+            "name": "personal",
+            "cildren": [
+
+            ]
+        }
+    ]
+}
