@@ -3,7 +3,7 @@
     "children": [
         {
             "name": "work",
-            "img": "img/gsdo_tn.jpg",
+            "img": "img/work.jpg",
             "children": [
                 {
                     "name": "JPL-2017",
@@ -65,6 +65,7 @@
         },
         {
             "name": "projects",
+            "img": "img/projects.jpg",
             "children": [
                 {
                     "name":"OD_D",
@@ -387,6 +388,7 @@
         },
         {
             "name": "academia",
+            "img": "img/rollins-logo.jpeg",
             "children": [
                 {
                     "name": "rollins-2018",
