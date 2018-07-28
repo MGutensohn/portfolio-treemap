@@ -327,6 +327,60 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "name":"senior-project",
+                    "title":"The Parking Project",
+                    "children":[
+                        {
+                            "name":"requirements",
+                            "value": 1,
+                            "title":"Requirements",
+                            "list":[
+                                "Actively monitor parking spaces.",
+                                "Scaleable.",
+                                "Autonomous."
+                            ]
+                        },
+                        {
+                            "name":"tools_used",
+                            "value": 3,
+                            "title":"Tools Used",
+                            "tools":[
+                                {
+                                    "img":"",
+                                    "name":"Raspbrry Pi w/ NIR camera"
+                                },
+                                {
+                                    "img":"",
+                                    "name":"OpenCV with Python"
+                                },
+                                {
+                                    "img":"",
+                                    "name":"Express.JS"
+                                }
+                            ]
+                        },
+                        {
+                            "name":"process",
+                            "value": 3,
+                            "title":"Development Process",
+                            "process":[
+                                {
+                                    "img":"",
+                                    "name":"Development"
+                                },
+                                {
+                                    "img":"",
+                                    "name":"Testing"
+                                },
+                                {
+                                    "img":"",
+                                    "name":"Iteration"
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         },
