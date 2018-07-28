@@ -23,7 +23,7 @@
                     "value": 2,
                     "location":"Kennedy Space Center - Fall 2017",
                     "title":"Web Developer Intern",
-                    "img":"",
+                    "img":"img/ksc.jpg",
                     "projects":[
                         {
                             "title":"SpaceDex",
@@ -36,7 +36,7 @@
                     "value": 2,
                     "location":"Kennedy Space Center: Augmented/Virtual Reality Lab - Spring 2018",
                     "title":"Computer Vision Intern",
-                    "img":"",
+                    "img":"img/avr-lab.jpg",
                     "projects":[
                         {
                             "title":"AVR Vision",
