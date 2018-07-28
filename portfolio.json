@@ -3,6 +3,7 @@
     "children": [
         {
             "name": "work",
+            "img": "img/gsdo_tn.jpg",
             "children": [
                 {
                     "name": "JPL-2017",
